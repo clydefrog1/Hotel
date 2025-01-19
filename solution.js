@@ -18,6 +18,7 @@ function changeContent(className) {
 
 document.querySelector('#new-reservation').addEventListener('click', (e) => cleanData(e));
 
+
 function cleanData(e) {
     changeContent('search-form-content');
 }
